@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shmotka.Pl</title>
+    <link rel="icon" href="assets/logo_i.png" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo1.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Главная</a></li>
+          <li class="link"><a href="#about">О нас</a></li>
+          <li class="link"><a href="#class">Наши плюсы</a></li>
+          <li class="link"><a href="#trainer">Как заказать</a></li>
+          <li class="link"><a href="#price">Обучение</a></li>
+          <button class="btn"><a href="https://t.me/shmotkapl" target="_blank">Наш Телеграм-Канал</a></button>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header_new.png" alt="header" />
+        </div>
+        <div class="header__content">
+          
+          <h4>Все о товарке из <span style="font-weight: 700; color:#f92524">Китая<span></h4>
+          <h1 class="section__header">shmotka.pl</h1>
+          <p>
+            shmotka.pl — одно из самых известных и авторитетных сообществ в своей сфере. Мы специализируемся на закупке товаров напрямую из Китая с последующей надёжной доставкой в Европу.
+            За годы деятельности мы зарекомендовали себя как команда, которой можно доверять — как новичкам, так и настоящим ценителям. Наш стиль работы — это открытость,
+            внимание к деталям и стремление предоставить максимально качественный сервис в этой области.
+          </p>
+          <div class="header__btn">
+            <button class="btn"><a href="https://t.me/shmotkapl" target="_blank">Заказать</a></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about" >
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Почему стоит выбрать именно нас?</h2>
+        <p class="section__description">
+          Мы не просто магазин — мы комьюнити, которое делает процесс заказа из Китая простым, понятным и надёжным. С первого дня мы ставим качество, честность и заботу о клиенте на первое место. Ниже — три причины, почему тысячи людей доверяют именно нам:
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+           <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Более 2-ух лет работы на рынке</h4>
+              <p>
+                Мы - надежная компания.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>300+ положительных отзывов</h4>
+              <p>
+                Люди доверяют нам.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+             <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>2100 + активных участников комьюнити</h4>
+              <p>
+                Поспеши стать одним из них!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class" >
+      <h2 class="section__header">Чем мы еще можем похвастаться?</h2>
+      <p class="section__description">
+        Мы постоянно растём, развиваемся и улучшаем каждый этап — от поиска товаров до финальной доставки. Вот ещё несколько вещей, которыми мы по праву гордимся:
+      </p>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Удобная навигация по магазину!</h4>
+            <p>К примеру, #кросовки — десятки моделей, куча расцветок, и всё это в одном месте!</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Получите 10 zł за отзыв!</h4>
+            <p>Оставьте отзыв о купленном товаре — и мы начислим вам 10 zł! Ваше мнение важно для нас и других покупателей.</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-3.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Реферальная программа</h4>
+            <p>За каждого приведённого человека вам начисляется скидка на следующий заказ.</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
+          <img src="assets/class-4.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Набор в команду!</h4>
+            <p>Ежемесячно мы открываем набор в нашу команду!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainer" >
+      <h2 class="section__header">Как сделать заказ в нашем магазине?</h2>
+      <p class="section__description">
+        Как сделать заказ в нашем магазине? Это легко и удобно! Снизу описаны наши условия и нюансы. 
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-1.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Оплата заказа</h4>
+            <h5>1 пункт</h5>
+            <hr />
+            <p>
+              - Товар оплачивается предоплатой.<br>
+              - Для объемных заказов можно внести предоплату в размере 50% от суммы заказа<br>
+              - По запросу мы можем прислать чек об оплате и трек-номер посылки<br>
+            </p>
+             
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-2.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Методы оплаты товара</h4>
+            <h5>2 пункт</h5>
+            <hr />
+            <p>
+              Оплата возможна через польские банки ,криптовалюту или при самовывозе (Варшава).
+            </p>
+             
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-3.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Возврат средств за товар</h4>
+            <h5>3 пункт</h5>
+            <hr />
+            <p>
+              В случае, если товар не подошел по размеру, предоставляется возможность заменить товар на нужный размер. Возврат средств не осуществляется.
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-4.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Поиск товара</h4>
+            <h5>4 пункт</h5>
+            <hr />
+            <p>
+              Если нужного товара нет в нашем канале, пожалуйста, пришлите название или фото товара, который вам необходим. Мы постараемся найти его для вас.
+            </p>
+             
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-5.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Что мы доставляем?</h4>
+            <h5>5 пункт</h5>
+            <hr />
+            <p>
+              Основной ассортимент включает  одежду и вещи , однако также есть возможность заказать технику. Мы не доставляем еду и духи.
+            </p>
+             
+          </div>
+        </div>
+        <div class="trainer__card">
+          <img src="assets/trainer-6.jpg" alt="trainer" />
+        </div>
+        <div class="trainer__card">
+          <div class="trainer__content">
+            <h4>Как и когда ко мне придет товар</h4>
+            <h5>6 пункт</h5>
+            <hr />
+            <p>
+              Доставка осуществляется через пачкоматы или курьером на дом. Мы работаем с такими сервисами, как  InPost, DHL и DPD. С момента оплаты заказа доставка осуществляется в течение 13-15 рабочих дней. *Выходные и праздничные дни не учитываются.*
+            </p>
+            </p>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price" >
+      <h2 class="section__header">Обучение</h2>
+      <p class="section__description">
+        Обучение по заказам из Китая: выходит на новый уровень выгоды !
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Basic Plan</h4>
+            <img src="assets/price-1.png" alt="price" />
+            <p>
+              Наш план обучения - идеальный старт для тех, кто хочет заказывать товары с китайских маркетплейсов, таких как Poizon, Taobao, Pinduoduo и других. Привилегированный доступ в закрытое сообщество, помощь в заказах и доставка в любую страну ЕС и СНГ.
+            </p>
+            <hr />
+            <h4>Key Features</h4>
+            <p>Доступ к китайским платформам</p>
+            <p>Обмен опытом и советы от участников</p>
+            <p>Индивидуальная помощь в решении вопросов</p>
+            <p>Без дополнительных наценок и комиссий</p>
+            <p>Доставка в ЕС и СНГ</p>
+          </div>
+          
+          <button class="btn"><a href="https://t.me/shmotkapl/806" target="_blank">Подробнее</a></button>
+        </div>
+        
+    </section>
+
+    <section class="section__container client__container" id="client" >
+      <h2 class="section__header">Наши настоящие отзывы</h2>
+      <p class="section__description">
+        Доверие клиентов — наш главный приоритет. Мы гордимся тем, что люди выбирают нас снова и снова.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                Джинсы просто ахуеные, рекомендую всем его тгк, дёшево, качественно, так и ещё быстро посылка приходит, я своему продавцу руки целовал бля буду 
+              </p>
+              <h4>Анонимный отзыв</h4>
+              <h5>Джинсы Evisu</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Хорошее качество, недолгая доставка и самое главное - все четко<br>
+P.s 
+Появился новый постоянный 
+клиент 
+              </p>
+              <h4>Анонимный отзыв</h4>
+              <h5>Различные товары</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Все топ, якість на найвищому рівні, мені все сподобалося! Замовляйте у нього - він реально робить своє діло 
+              </p>
+              <h4>Анонимный отзыв</h4>
+              <h5>Кросовки Nike Air Force x CDG x Supreme</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Спасибо, всё пришло и качество просто! 
+Честно, уже начал думать, что ничего не придёт, ведь я получил кофту по акции с рефералами. 
+Но нет, всё на месте, всё как надо! Советую 
+              </p>
+              <h4>Анонимный отзыв</h4>
+              <h5>Худи Nike Nocta</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="assets/logo1.png" alt="logo" /></a>
+          </div>
+          <p>
+            shmotka.pl — одно из ведущих сообществ по закупкам из Китая с надёжной доставкой по Европе. Мы обеспечиваем доступ к топовым платформам, понятный процесс заказа и поддержку на каждом этапе.
+Нам доверяют как новички, так и опытные реселлеры — за прозрачность, качество и высокий уровень сервиса.
+          </p>
+          <div class="footer__socials">
+            <a href="https://t.me/shmotkapl"><i class="ri-telegram-fill"></i></a>
+            <a href="https://www.tiktok.com/@shmotkapl"><i class="ri-tiktok-fill"></i></a>
+            <a href="https://www.instagram.com/shmotkapl/"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <div class="footer__links">
+            <a href="#home">Главная</a>
+          <a href="#about">О нас</a>
+          <a href="#class">Наши плюсы</a>
+          <a href="#trainer">Как заказать</a>
+          <a href="#price">Обучение</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 shmotkapl. All rights reserved. Made by Veracept
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
